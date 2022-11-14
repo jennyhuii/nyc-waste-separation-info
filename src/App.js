@@ -1,4 +1,3 @@
-import react from 'react';
 import styled from 'styled-components';
 import Logo from './NYC-waste-separation-info-logo.png';
 import Blue from './blue.png'
