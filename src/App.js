@@ -8,6 +8,7 @@ const StyledContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
 `
 
 const StyledDiv = styled.div`
@@ -36,6 +37,13 @@ function App() {
     <StyledContainer>
       <StyledImage src={Logo} alt='logo' />
       <StyledDiv>
+        <p>
+          Hello! We're working on a more comprehensive and interactive guide to answer all your waste separation questions! 
+          For now, please refer to guidance below. 
+          Source: nyc.gov/zerowaste
+        </p>
+      </StyledDiv>
+      <StyledDiv>
         <StyledP color='#0015D7' fontSize='1rem'>
           Metal, glass, plastic and cartons go in the blue bin (EMPTY AND RINSE if contains food/liquid!)
         </StyledP>
@@ -48,11 +56,6 @@ function App() {
           Everything else goes in the garbage bin because NEW YORK CITY DOESN'T COMPOST, unfortunately.
           Good news is we're working on it!
         </StyledP>
-      </StyledDiv>
-      <StyledDiv>
-        <p>
-          More information coming soon...
-        </p>
       </StyledDiv>
     </StyledContainer>
   );
