@@ -24,7 +24,7 @@ const data = [
     },
     {
         name: '11/28',
-        IDM: 0,
+        IDM: 5,
         ITP: 0,
     },
     {
@@ -119,7 +119,7 @@ const IDMProgress = () => {
                     Total Points:
                 </StyledP>
                 <StyledP color='#57068c' fontSize='1rem'>
-                    3rd Floor - IDM: 0
+                    3rd Floor - IDM: 5
                 </StyledP>
                 <StyledP color='#8900e1' fontSize='1rem'>
                     4th Floor - ITP: 10
