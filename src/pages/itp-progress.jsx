@@ -29,7 +29,7 @@ const data = [
     },
     {
         name: '11/29',
-        IDM: 0,
+        IDM: 5,
         ITP: 0,
     },
     {
@@ -119,7 +119,7 @@ const ITPProgress = () => {
                     Total Points:
                 </StyledP>
                 <StyledP color='#57068c' fontSize='1rem'>
-                    3rd Floor - IDM: 5
+                    3rd Floor - IDM: 10
                 </StyledP>
                 <StyledP color='#8900e1' fontSize='1rem'>
                     4th Floor - ITP: 10
