@@ -35,7 +35,7 @@ const data = [
     {
         name: '11/30',
         IDM: 0,
-        ITP: 0,
+        ITP: 5,
     },
     {
         name: '12/1',
@@ -122,7 +122,7 @@ const IDMProgress = () => {
                     3rd Floor - IDM: 10
                 </StyledP>
                 <StyledP color='#8900e1' fontSize='1rem'>
-                    4th Floor - ITP: 10
+                    4th Floor - ITP: 15
                 </StyledP>
             </StyledDiv>
         </StyledContainer>
